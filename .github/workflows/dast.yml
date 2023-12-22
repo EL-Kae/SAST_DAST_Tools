@@ -37,7 +37,7 @@ jobs:
             with:
               target: '${{ env.DAST_WEB_URL }}'
               allow_issue_writing: false
-              # the below cmd replaces the User-Agent request http header to 'Zapped by the VICE InfoSec Team' so we can 
+              # the below cmd replaces the User-Agent request http header to 'Zapped by El Kae' so we can 
               # even further identify our own traffic.
               cmd_options: >
                 -j -z "-config replacer.full_list(0).description=ReplaceUA 
@@ -45,7 +45,7 @@ jobs:
                 -config replacer.full_list(0).matchtype=REQ_HEADER 
                 -config replacer.full_list(0).matchstr=User-Agent 
                 -config replacer.full_list(0).regex=false 
-                -config replacer.full_list(0).replacement=Zapped\ by\ the\ VICE\ InfoSec\ Team
+                -config replacer.full_list(0).replacement=Zapped\ by\ El\ Kae
                 -config replacer.full_list(1).description=BasicAuth 
                 -config replacer.full_list(1).enabled=true 
                 -config replacer.full_list(1).matchtype=REQ_HEADER 
@@ -73,5 +73,5 @@ jobs:
             with:
               script: > 
                 core.setFailed('file=/.github/workflows/dast.yml,line=21,col=10,endColumn=45 DAST_WEB_URL does not exist. 
-                Please refer to our docs https://github.com/VICEMedia/infosec/wiki/OWASP-ZAP-for-DAST#dast_url-does-not-exist')
+                Please refer to our docs https://github.com/EL-Kae/SAST_DAST_Tools/wiki/OWASP-ZAP-for-DAST#dast_url-does-not-exist')
                 
