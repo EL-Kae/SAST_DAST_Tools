@@ -2,7 +2,7 @@
 # This is called by the SAST file here https://github.com/EL-Kae/SAT_DAST_Tools/blob/main/.github/workflows/sast.yml. 
 
 # Here is more information on how to use external config files: 
-# https://docs.github.com/en/code-security/code-scanning/using-codeql-code-scanning-with-your-existing-ci-system/configuring-codeql-runner-in-your-ci-system#using-a-custom-configuration-file
+# https://docs.github.com/en/code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/customizing-your-advanced-setup-for-code-scanning#using-a-custom-configuration-file
 
 # name: "CodeQL Config"
 
