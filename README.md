@@ -1,7 +1,7 @@
 # SAST_DAST_Tools
-SAST and DAST tools using GHAS
-
-Check the [wiki](https://github.com/EL-Kae/SAST_DAST_Tools/wiki)!
+Github's answer to GitLab application security tools. A SAST and DAST tool using an aggregation of open source tools such as CodeQL, ZAP, Mobsf and more.
+Of all the application security tools out there why use this one?
+Check the [wiki](https://github.com/EL-Kae/SAST_DAST_Tools/wiki) for more information!
 
 Languages covered by the SAST tool can be found [here](https://github.com/EL-Kae/SAST_DAST_Tools/wiki/CodeQL-Language-Coverage)
 
