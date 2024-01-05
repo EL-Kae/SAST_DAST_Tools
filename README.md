@@ -1,5 +1,5 @@
 # SAST_DAST_Tools
-Github's answer to GitLab application security tools. A SAST and DAST tool using an aggregation of open source tools such as CodeQL, ZAP, Mobsf and more.
+Github's answer to GitLab application security tools. A SAST and DAST solutions using an aggregation of open source tools such as CodeQL, ZAP, Mobsf and more.
 Of all the application security tools out there why use this one?
 Check the [wiki](https://github.com/EL-Kae/SAST_DAST_Tools/wiki) for more information!
 
